@@ -1,5 +1,5 @@
 # Guess The Number Game
-
+![img](readme-img/ami.png)
 This is a simple web-based guessing game built with JavaScript. The game generates a random secret number between 1 and 20 and the player needs to guess the number. After each guess, the game provides feedback to the player whether their guess was too high or too low. The game ends when the player correctly guesses the secret number or runs out of guesses.
 
 ## How to Play
@@ -31,3 +31,7 @@ The JavaScript code for the game is in the `script.js` file. Here's an overview 
 ## Dependencies
 
 This game does not have any external dependencies and can be played directly in a web browser.
+
+## Lighthouse Test
+
+![img](readme-img/light.png)

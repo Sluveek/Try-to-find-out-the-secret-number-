@@ -1,17 +1,17 @@
+/* Global settings */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  html {
-    font-size: 62.5%;
-  }
   
   body {
     font-family: sans-serif;
     color: #161697f5;
-    background-color: azure;
+    background-color: #f0ffff;
+    font-size: 62.5%;
   }
   
   header {
@@ -29,10 +29,14 @@
     justify-items: center;
   }
   
+.label-highscore {
+  padding: 2%;
+}
+
   .container-right {
     text-align: center;
     align-self: center;
-    width: 100%;
+    width: 30%;
     justify-self: center;
     justify-self: center;
   
@@ -41,7 +45,7 @@
   .container-left {
     text-align: center;
     align-self: center;
-    width: 52rem;
+    width: 30%;
     font-size: 2rem;
     justify-self: center;
   
@@ -58,17 +62,17 @@
     background: #b4922d;
     display: inline-block;
     color: #333;
-    font-size: 12rem;
-    width: 15rem;
+    font-size: 300%;
+    width: 82%;
     align-self: center;
     text-align: center;
     justify-self: center;
-    /* transform: translate(-50%, 50%); */
+    padding: 3%;
   }
   
   .between {
     font-size: 1.8rem;
-    padding: 4%;
+    padding: 6%;
   }
   
   .again {
@@ -77,12 +81,12 @@
   
   .guess {
     background: none;
-    border: 4px solid #3e9e79;
+    border: 4px solid #000000;
     font-family: inherit;
     color: inherit;
     font-size: 5rem;
-    padding: 2.5rem;
-    width: 25rem;
+    padding: 0.5rem;
+    width: 20rem;
     text-align: center;
     display: inline-block;
     margin-bottom: 3rem;
@@ -90,14 +94,13 @@
   
   .btn {
     border: none;
-    background-color: #175012;
+    background-color: #d8d8d8;
     color: #8c1414;
     font-size: 2rem;
     font-family: inherit;
-    padding: 2rem 3rem;
+    padding: 0rem 3rem;
     cursor: pointer;
-  }
-  
+}
   .btn:hover {
     background-color: #f13d0b;
   }
@@ -117,19 +120,21 @@
       grid-template-columns: 1fr;
       justify-items: center;
     }
-  }
-  
-  @media (max-width: 414px) {
-    .game-container {
-      grid-template-columns: 1fr;
-      justify-items: center;
+
+    .guess {
+      font-size: 3rem;
+      padding: 2rem;
+      width: 20rem;
     }
-  }
-  
-  @media (max-width: 320px) {
-    .game-container {
-      grid-template-columns: 1fr;
-      justify-items: center;
-  
+    
+    .number {
+      width:23%;
     }
+
+    .guess {
+      width: 150%;
+    }
+
   }
+  
+  
